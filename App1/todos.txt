@@ -1,4 +1,5 @@
 print
-cook
+Cook
 Meet Tuga
-show
+Fix the car
+add a new member
