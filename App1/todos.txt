@@ -2,4 +2,5 @@ print
 Cook
 Meet Tuga
 Fix the car
-add a new member
+buy a pizza
+clean the car
