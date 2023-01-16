@@ -1,6 +1,7 @@
 print
-Cook
+Cook a good dish
 Meet Tuga
-Fix the car
-buy a pizza
-clean the car
+buy a house
+Learn python
+clean the house
+paint a wall
