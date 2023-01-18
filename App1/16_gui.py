@@ -18,7 +18,6 @@ while True:
     event, values = window.read()           #display window created above
     print(event)
     print(values)
-    print(values['todos'])
 
     match event:
         case "Add":
@@ -42,6 +41,6 @@ while True:
             window['todo'].update(value = values['todos'])
 
         case sg.WIN_CLOSED:
-            break
+            break                                   #exit() function stops the program completely // break stops only the loop
 
 window.close()
