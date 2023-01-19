@@ -1,7 +1,9 @@
 print
 Cook a good dish
 Meet Tuga
-buy a house
 Learn python
 clean the house
 paint a wall
+Make pasta
+Run
+Find a printer

@@ -6,5 +6,5 @@ def parse(feet_inches):
 
 
 def convert(feet, inches):
-    meters = feet * 0.3048 + inches * 0.0254
+    meters = float(feet) * 0.3048 + float(inches) * 0.0254
     return meters

@@ -8,7 +8,7 @@ sg.theme("Black")
 label_clock = sg.Text('', key = 'clock')
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter a todo", key="todo")        #key --> name button and store value under "key"
-add_button = sg.Button("Add", size = 10)
+add_button = sg.Button(key = "Add", size = 2, image_source = "06_files/add.png", mouseover_colors = "LightBlue", tooltip = "Add Todo")       #Put image as button
 list_box = sg.Listbox(values = func.get_todos(), key = "todos",
                          enable_events = True, size = [45,10])
 edit_button = sg.Button("Edit")
