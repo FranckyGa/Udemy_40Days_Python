@@ -1,6 +1,11 @@
 from Modules import functions as func
 import PySimpleGUI as sg              #used to create interfaces  // as sg --> allow to call PySimpleGUI with another word defined (like sg)
 import time
+import os
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
 
 sg.theme("Black")
 

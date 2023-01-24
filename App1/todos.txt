@@ -1,7 +1,4 @@
 print
-Cook a good dish
-Meet Tuga
-Learn python
 clean the house
 paint a wall
 Make pasta
